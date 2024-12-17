@@ -93,6 +93,10 @@
     line-height: 1;
 }
 
+.desktop {
+    display: none;
+}
+
 .first-section-p {
     padding: 1.2rem 0;
     font-family: 'Outfit', sans-serif;
@@ -163,3 +167,51 @@
     padding: .35rem 0;
     font-size: 1.2rem;
 }
+
+/* ******************************FOURTH SECTION STYLING*********************** */
+.fourth-section {
+    padding: 1.5rem 1.2rem;
+}
+
+.nutrition-h1 {
+    font-family: 'Young Serif', serif;
+    font-size: 2.2rem;
+    color: var(--brown-800);
+}
+
+.fourth-section p {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-family: 'Outfit', sans-serif;
+    padding: .8rem 0;
+}
+
+table {
+    width: 95%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: left;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.3rem;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+td:last-child {
+    text-align: right; 
+    font-weight: bold;
+    color: var(--brown-800);
+}
+
+td:first-child {
+    font-weight: normal;
+}
+
+tr:last-child td {
+    border-bottom: none; 
+}
+
+
