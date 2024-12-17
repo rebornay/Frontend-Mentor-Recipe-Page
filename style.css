@@ -142,3 +142,24 @@
     padding: .35rem 0;
     font-size: 1.2rem;
 }
+
+/* ******************************THIRD SECTION STYLING*********************** */
+.third-section {
+    padding: 1.5rem 1.2rem;
+}
+
+.instructions-h1{
+    font-family: 'Young Serif', serif;
+    font-size: 2.2rem;
+    color: var(--brown-800);
+}
+
+.instructions-list {
+    font-family: 'Outfit', sans-serif;
+    padding: 1.5rem ;
+}
+
+.instructions-list li {
+    padding: .35rem 0;
+    font-size: 1.2rem;
+}
