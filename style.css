@@ -234,3 +234,12 @@ tr:last-child td {
         display: none;
     }
 }
+
+/* ******************************ATTRIBUTION*********************** */
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
