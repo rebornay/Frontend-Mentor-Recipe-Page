@@ -101,6 +101,44 @@
 
 .preparation-time{
     font-family: 'Outfit', sans-serif;
-    padding: 1rem 2.5rem;
+    padding: 1.5rem .5rem;
     background-color: var(--rose-50);
+    margin: 0 .5rem;
+    border-radius: 10px;
+}
+
+.preparation-time h2 {
+    color: var(--rose-800);
+    padding: .8rem 1rem 0;
+}
+
+.preparation-time ul {
+    font-size: 1.12rem;
+}
+
+.preparation-time ul li {
+    padding: .35rem 0;
+    text-indent: 0.625rem;
+}
+
+/* ******************************SECOND SECTION STYLING*********************** */
+
+.second-section {
+    padding: 0rem 1.2rem;
+}
+
+.ingredients-h1{
+    font-family: 'Young Serif', serif;
+    font-size: 2.2rem;
+    color: var(--brown-800);
+}
+
+.ingredients-list {
+    font-family: 'Outfit', sans-serif;
+    padding: 1.5rem ;
+}
+
+.ingredients-list li {
+    padding: .35rem 0;
+    font-size: 1.2rem;
 }
