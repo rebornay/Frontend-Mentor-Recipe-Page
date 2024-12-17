@@ -215,3 +215,22 @@ tr:last-child td {
 }
 
 
+/* ******************************MEDIA QUERIES*********************** */
+
+@media (min-width: 1200px) and (max-width:1440px){
+    header {
+        padding: 2rem 1.2rem;
+    }
+
+    header img {
+        border-radius: 10px;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+}
